@@ -1,0 +1,91 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Columnas para imágenes */
+.image-columns {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo, .logo2 {
+    width: 180px;
+    height: auto;
+}
+
+/* Columnas para formularios */
+.form-columns {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Estilos de formulario */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background: #4285f4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="button"]:hover {
+    background: #3367d6;
+}
+
+/* Áreas de respuesta */
+.response-box {
+    margin-top: 15px;
+    padding: 10px;
+    background: #e8f0fe;
+    border-radius: 4px;
+    min-height: 50px;
+}

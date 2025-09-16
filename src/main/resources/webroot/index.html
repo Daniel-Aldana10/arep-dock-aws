@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="image-columns">
+        <img src="/serveis-watch.png" alt="Logo" class="logo">
+        <img src="/time.jpg" alt="Time" class="logo2">
+    </div>
+
+
+    <div class="form-columns">
+        <div class="form-container">
+            <h1>Form with GET</h1>
+            <form action="/hello" method="get" onsubmit="return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="John">
+                <input type="button" value="Submit" onclick="loadGetMsg()">
+            </form>
+            <div class="response-box" id="getrespmsg"></div>
+        </div>
+
+        <div class="form-container">
+            <h1>Form with POST</h1>
+            <form action="/hellopost" method="post" onsubmit="return false;">
+                <label for="postname">Name:</label>
+                <input type="text" id="postname" name="name" value="John">
+                <input type="button" value="Submit" onclick="loadPostMsg(postname)">
+            </form>
+            <div class="response-box" id="postrespmsg"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
