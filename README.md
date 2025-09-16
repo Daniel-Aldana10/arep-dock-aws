@@ -67,7 +67,7 @@ El HttpServer se ha optimizado para soportar peticiones concurrentes de manera e
 
 - **10 hilos concurrentes** por defecto
 - **Manejo de errores**
-- **Código  mantenible **
+- **Código  mantenible**
 
 
 ### Shutdown 
